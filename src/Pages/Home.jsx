@@ -79,9 +79,9 @@ const PAUSE_DURATION = 2000;
 const WORDS = ["Network & Telecom Student", "Tech Enthusiast"];
 const TECH_STACK = ["React", "Javascript", "Node.js", "Tailwind"];
 const SOCIAL_LINKS = [
-  { icon: Github, link: "https://github.com/EkiZR", label: "GitHub Profile" },
-  { icon: Linkedin, link: "https://www.linkedin.com/in/ekizr/", label: "LinkedIn Profile" },
-  { icon: Instagram, link: "https://www.instagram.com/ekizr_/?hl=id", label: "Instagram Profile" }
+  { icon: Github, link: "https://github.com/siramal", label: "GitHub Profile" },
+  { icon: Linkedin, link: "https://www.linkedin.com/in/sirojulkamal/", label: "LinkedIn Profile" },
+  { icon: Instagram, link: "https://www.instagram.com/sirojulkamal/", label: "Instagram Profile" }
 ];
 
 const Home = () => {
@@ -140,25 +140,25 @@ const Home = () => {
   return (
     <>
       <Helmet>
-        <title>Eki Zulfar Rachman — Frontend Web Developer</title>
-        <meta name="description" content="Website resmi Eki Zulfar Rachman, Front-End Web Developer. Saya berfokus pada penciptaan pengalaman digital yang menarik dan selalu berupaya memberikan solusi terbaik dalam setiap proyek yang saya kerjakan." />
-     <meta name="robots" content="index, follow" />
-        <link rel="canonical" href="https://ekizr.com" />
-        <meta property="og:title" content="Eki Zulfar Rachman — Frontend Web Developer" />
-     <meta property="og:description" content="Website resmi dan portofolio Eki Zulfar Rachman, Front-End Web Developer." />
-        <meta property="og:url" content="https://ekizr.com" />
+        <title>Sirojul Kamal — Full-Stack Web Developer</title>
+        <meta name="description" content="Website resmi Sirojul Kamal, Front-End Web Developer. Saya berfokus pada penciptaan pengalaman digital yang menarik dan selalu berupaya memberikan solusi terbaik dalam setiap proyek yang saya kerjakan." />
+        <meta name="robots" content="index, follow" />
+        <link rel="canonical" href="https://sirkam.com" />
+        <meta property="og:title" content="Sirojul Kamal — Frontend Web Developer" />
+        <meta property="og:description" content="Website resmi dan portofolio Sirojul Kamal, Front-End Web Developer." />
+        <meta property="og:url" content="https://sirkam.com" />
         <meta property="og:type" content="website" />
         <script type="application/ld+json">{`
           {
             "@context": "https://schema.org",
             "@type": "Person",
-            "name": "Eki Zulfar Rachman",
+            "name": "Sirojul Kamal",
             "jobTitle": "Frontend Developer",
-            "url": "https://ekizr.com",
+            "url": "https://sirkam.com",
             "sameAs": [
-              "https://github.com/EkiZR",
-              "https://www.linkedin.com/in/ekizr/",
-              "https://www.instagram.com/ekizr_/"
+              "https://github.com/siramal",
+              "https://www.linkedin.com/in/sirojulkamal/",
+              "https://www.instagram.com/sirojulkamal/?hl=id"
             ]
           }
         `}</script>
@@ -188,9 +188,7 @@ const Home = () => {
                   <p className="text-base md:text-lg text-gray-400 max-w-xl leading-relaxed font-light"
                     data-aos="fade-up"
                     data-aos-delay="1000">
-                    Menciptakan Website Yang Inovatif, Fungsional, dan User-Friendly untuk Solusi Digital.
-                  </p>
-
+                    Creating Innovative, Functional and User-Friendly Websites for Digital Solutions.                  </p>
                   {/* Tech Stack */}
                   <div className="flex flex-wrap gap-3 justify-start" data-aos="fade-up" data-aos-delay="1200">
                     {TECH_STACK.map((tech, index) => (
@@ -220,31 +218,26 @@ const Home = () => {
                 data-aos="fade-left"
                 data-aos-delay="600">
                 <div className="relative w-full opacity-90">
-                  <div className={`absolute inset-0 bg-gradient-to-r from-[#6366f1]/10 to-[#a855f7]/10 rounded-3xl blur-3xl transition-all duration-700 ease-in-out ${
-                    isHovering ? "opacity-50 scale-105" : "opacity-20 scale-100"
-                  }`}>
+                  <div className={`absolute inset-0 bg-gradient-to-r from-[#6366f1]/10 to-[#a855f7]/10 rounded-3xl blur-3xl transition-all duration-700 ease-in-out ${isHovering ? "opacity-50 scale-105" : "opacity-20 scale-100"
+                    }`}>
                   </div>
 
-                  <div className={`relative lg:left-12 z-10 w-full opacity-90 transform transition-transform duration-500 ${
-                    isHovering ? "scale-105" : "scale-100"
-                  }`}>
+                  <div className={`relative lg:left-12 z-10 w-full opacity-90 transform transition-transform duration-500 ${isHovering ? "scale-105" : "scale-100"
+                    }`}>
                     <img
                       src="Animation1.gif"
                       alt="Developer Animation"
-                      className={`w-full h-full object-contain transition-all duration-500 ${
-                        isHovering 
-                          ? "scale-[95%] sm:scale-[90%] md:scale-[90%] lg:scale-[90%] rotate-2" 
+                      className={`w-full h-full object-contain transition-all duration-500 ${isHovering
+                          ? "scale-[95%] sm:scale-[90%] md:scale-[90%] lg:scale-[90%] rotate-2"
                           : "scale-[90%] sm:scale-[80%] md:scale-[80%] lg:scale-[80%]"
-                      }`}
+                        }`}
                     />
                   </div>
 
-                  <div className={`absolute inset-0 pointer-events-none transition-all duration-700 ${
-                    isHovering ? "opacity-50" : "opacity-20"
-                  }`}>
-                    <div className={`absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[400px] h-[400px] bg-gradient-to-br from-indigo-500/10 to-purple-500/10 blur-3xl animate-[pulse_6s_cubic-bezier(0.4,0,0.6,1)_infinite] transition-all duration-700 ${
-                      isHovering ? "scale-110" : "scale-100"
+                  <div className={`absolute inset-0 pointer-events-none transition-all duration-700 ${isHovering ? "opacity-50" : "opacity-20"
                     }`}>
+                    <div className={`absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[400px] h-[400px] bg-gradient-to-br from-indigo-500/10 to-purple-500/10 blur-3xl animate-[pulse_6s_cubic-bezier(0.4,0,0.6,1)_infinite] transition-all duration-700 ${isHovering ? "scale-110" : "scale-100"
+                      }`}>
                     </div>
                   </div>
                 </div>
