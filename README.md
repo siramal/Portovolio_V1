@@ -272,7 +272,7 @@ Upload the contents of the `dist/` folder to your hosting provider.
 ## Credits & Contact
 
 **Sirojul Kamal**  
-Website: [eki.my.id](https://sirkam.com) · GitHub: [sirkam](https://github.com/sirkam)
+Website: [kamal.my.id](https://sirkam.com) · GitHub: [sirkam](https://github.com/sirkam)
 
 Thanks to [LottieFiles](https://lottiefiles.com/free-animation/coding-NWhbxMOVgP) and Claude.
 
